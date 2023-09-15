@@ -5,6 +5,7 @@ import "../StyleSheets/HomeScreen.css";
 import IntroSection from "../Sections/HomeScreen/IntroSection";
 import AboutSection from "../Sections/HomeScreen/AboutSection";
 import ProjectSection from "../Sections/HomeScreen/ProjectSection";
+import ContactScreen from "./ContactScreen";
 
 class HomeScreen extends React.Component {
     render() {
@@ -13,6 +14,7 @@ class HomeScreen extends React.Component {
                 <IntroSection />
                 <AboutSection />
                 <ProjectSection />
+                <ContactScreen />
             </div>
         );
     }
