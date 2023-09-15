@@ -14,7 +14,7 @@ class ProjectSection extends React.Component {
                 <Link to="/projects" id="ProjectButton">
                     <img
                         src="assets/icons/project-w.png"
-                        alt="home-icon"
+                        alt="projects-icon"
                         width="25"
                     />
                     Explore Projects

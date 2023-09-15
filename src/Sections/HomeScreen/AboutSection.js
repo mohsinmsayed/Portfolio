@@ -22,19 +22,34 @@ class AboutSection extends React.Component {
                 <h1>------- skills -------</h1>
                 <div id="SkillSection">
                     <div>
+                        <img
+                            src="assets/icons/web-development.png"
+                            alt="web-development-icon"
+                            width="50"
+                        />
                         <h1>WEB DEVELOPMENT</h1>
                     </div>
                     <div>
+                        <img
+                            src="assets/icons/app-development.png"
+                            alt="app-development-icon"
+                            width="50"
+                        />
                         <h1>CROSS-PLATFORM APP DEVELOPMENT</h1>
                     </div>
                     <div>
+                        <img
+                            src="assets/icons/servicenow.png"
+                            alt="servicenow-icon"
+                            width="50"
+                        />
                         <h1>ServiceNOW&reg; DEVELOPER</h1>
                     </div>
                 </div>
                 <Link to="/about" id="AboutButton">
                     <img
                         src="assets/icons/about-me-w.png"
-                        alt="home-icon"
+                        alt="about-me-icon"
                         width="25"
                     />
                     Explore About ME
