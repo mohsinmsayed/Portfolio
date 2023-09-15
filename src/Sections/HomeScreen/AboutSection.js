@@ -32,6 +32,11 @@ class AboutSection extends React.Component {
                     </div>
                 </div>
                 <Link to="/about" id="AboutButton">
+                    <img
+                        src="assets/icons/about-me-w.png"
+                        alt="home-icon"
+                        width="25"
+                    />
                     Explore About ME
                 </Link>
             </div>

@@ -31,13 +31,13 @@ class ErrorScreen extends React.Component {
                     >
                         {this.state.buttonHover ? (
                             <img
-                                src="assets/icons/icons8-home-w.png"
+                                src="assets/icons/home-w.png"
                                 alt="home-icon"
                                 width="25"
                             />
                         ) : (
                             <img
-                                src="assets/icons/icons8-home-b.png"
+                                src="assets/icons/home-b.png"
                                 alt="home-icon"
                                 width="25"
                             />

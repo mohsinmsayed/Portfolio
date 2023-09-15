@@ -97,20 +97,20 @@
 /* background image for desktop */
 @media screen and (min-width: 1024px) {
     #ErrorScreen {
-        background-image: url("/public/assets/ErrorScreen/ErrorScreenDesktop.jpg");
+        background-image: url("/public/assets/ErrorScreenDesktop.jpg");
     }
 }
 
 /* background image for mobile devices in landscape mode */
 @media screen and (max-width: 1023px) and (orientation: landscape) {
     #ErrorScreen {
-        background-image: url("/public/assets/ErrorScreen/ErrorScreenDesktop.jpg");
+        background-image: url("/public/assets/ErrorScreenDesktop.jpg");
     }
 }
 
 /* background image for mobile devices in portrait mode */
 @media screen and (max-width: 1023px) and (orientation: portrait) {
     #ErrorScreen {
-        background-image: url("/public/assets/ErrorScreen/ErrorScreenMobile.jpg");
+        background-image: url("/public/assets/ErrorScreenMobile.jpg");
     }
 }
