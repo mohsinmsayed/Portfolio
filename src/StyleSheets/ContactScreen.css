@@ -26,6 +26,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 90%;
 }
 
 #ContactScreen .TemplateContainer a {

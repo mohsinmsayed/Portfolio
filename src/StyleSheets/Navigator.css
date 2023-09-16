@@ -1,0 +1,66 @@
+#Navigator {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#Navigator #MenuButton {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 20px;
+}
+
+#Navigator #MenuButton img {
+    width: 35px;
+}
+
+#Navigator #MenuBackground {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#Navigator #MenuContainer {
+    padding: 20px 30px 15px;
+    margin: -5px 20px 0 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 3px 3px 5px #000;
+}
+
+#Navigator #MenuContainer .NavigationButton {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 3px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Navigator #MenuContainer .NavigationButton:hover {
+    transition: 500ms;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#Navigator #MenuContainer .NavigationButton img {
+    margin-right: 7px;
+}
+
+/* styles for mobile devices */
+@media screen and (max-width: 700px) {
+    #Navigator #MenuButton img {
+        width: 27px;
+    }
+}
