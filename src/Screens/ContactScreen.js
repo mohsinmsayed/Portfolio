@@ -7,7 +7,7 @@ class ContactScreen extends React.Component {
             <div id="ContactScreen">
                 <h1>------- contact ME -------</h1>
                 <h2>find me online</h2>
-                <div class="TemplateContainer">
+                <div className="TemplateContainer">
                     <a
                         href="https://www.linkedin.com/in/mohsin-sayed-"
                         target="_blank"
@@ -30,9 +30,17 @@ class ContactScreen extends React.Component {
                         />
                         <p>instagram</p>
                     </a>
+                    <a href="https://github.com/mohsinmsayed" target="_blank">
+                        <img
+                            src="assets/icons/github.png"
+                            alt="github-icon"
+                            width="40"
+                        />
+                        <p>github</p>
+                    </a>
                 </div>
                 <h2>contact me</h2>
-                <div class="TemplateContainer">
+                <div className="TemplateContainer">
                     <a href="tel:+918097362084">
                         <img
                             src="assets/icons/whatsapp.png"
