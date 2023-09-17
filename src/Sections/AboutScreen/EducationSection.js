@@ -66,6 +66,7 @@ class EducationSection extends React.Component {
                 <div id="CertificationsContainer">
                     <h1>The Web Developer Bootcamp</h1>
                     <h1>HTML, CSS, and Javascript for Web Developers</h1>
+                    <h1>CS50's Mobile App Development with React Native</h1>
                     <h1>Certified System Administrator - ServiceNOW&reg;</h1>
                     <h1>
                         AWS Technical Certification - Amazon Web Services&reg;
