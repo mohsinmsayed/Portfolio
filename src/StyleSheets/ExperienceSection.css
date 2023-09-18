@@ -1,0 +1,134 @@
+#ExperienceSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#ExperienceSection > h1 {
+    margin: 0 0 15px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 1px rgb(15, 7, 25);
+}
+
+#ExperienceSection #TimelineContainer {
+    padding: 10px 5% 20px;
+    max-width: 70%;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement {
+    background-color: rgba(15, 7, 25, 0.7);
+    padding: 20px 40px;
+    border-radius: 0 30px 30px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(15, 7, 25);
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement .CircleElement {
+    background-color: rgb(15, 7, 25);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: -60px;
+    top: 5px;
+    box-shadow: 0px 0px 10px 1px #000;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement .LineElement {
+    background-color: rgba(15, 7, 25, 0.7);
+    width: 10px;
+    height: 90%;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    left: -45px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement h1 {
+    color: #fff;
+    font-family: "Limelight", cursive;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-shadow: 3px 3px 1px #000;
+    display: flex;
+    align-items: center;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement h1 img {
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement h2 {
+    color: #fff;
+    font-family: "Limelight", cursive;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 3px 3px 1px #000;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement h3 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px #000;
+    margin: 5px 0 15px;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 1px #000;
+    margin: 0 0 10px;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement h5 {
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px #000;
+    margin: 0;
+}
+
+#ExperienceSection #TimelineContainer .TimelineElement p {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 1px #000;
+    margin-bottom: 10px;
+}
+
+/* styles for mobile devices */
+@media screen and (max-width: 700px) {
+    #ExperienceSection #TimelineContainer {
+        max-width: 80%;
+        margin-left: 7%;
+        padding: 10px 15px 20px;
+    }
+
+    #ExperienceSection #TimelineContainer .TimelineElement {
+        padding: 20px 30px;
+    }
+
+    #ExperienceSection #TimelineContainer .TimelineElement .CircleElement {
+        left: -50px;
+    }
+
+    #ExperienceSection #TimelineContainer .TimelineElement .LineElement {
+        left: -35px;
+    }
+}
