@@ -140,6 +140,19 @@
     #EducationSection #TimelineContainer {
         max-width: 80%;
         margin-left: 7%;
+        padding: 10px 15px 20px;
+    }
+
+    #EducationSection #TimelineContainer .TimelineElement {
+        padding: 20px 30px;
+    }
+
+    #EducationSection #TimelineContainer .TimelineElement .CircleElement {
+        left: -50px;
+    }
+
+    #EducationSection #TimelineContainer .TimelineElement .LineElement {
+        left: -35px;
     }
 
     #EducationSection #CertificationsContainer h1 {
