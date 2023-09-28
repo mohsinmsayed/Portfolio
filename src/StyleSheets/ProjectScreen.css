@@ -1,0 +1,6 @@
+#ProjectScreen {
+    background-image: url("../../public/assets/backgroundImage-Workspace.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
