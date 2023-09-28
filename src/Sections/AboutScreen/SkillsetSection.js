@@ -1,6 +1,9 @@
 import React from "react";
 import "../../StyleSheets/SkillsetSection.css";
 
+// importing CV pdf file
+import CV from "../../CV.pdf";
+
 class SkillsetSection extends React.Component {
     render() {
         return (
@@ -221,6 +224,19 @@ class SkillsetSection extends React.Component {
                     where I learn and improve on the current skills also learn
                     new skills to further improve my skill set &emsp;---
                 </h3>
+                <h3 style={{ marginTop: "30px", fontWeight: "400" }}>
+                    you can download for reference, which contains all relevant
+                    information about me
+                </h3>
+                <a
+                    href={CV}
+                    download="Mohsin Sayed - CV"
+                    target="_blank"
+                    rel="noreferrer"
+                    id="CVButton"
+                >
+                    <button>Download CV</button>
+                </a>
             </div>
         );
     }

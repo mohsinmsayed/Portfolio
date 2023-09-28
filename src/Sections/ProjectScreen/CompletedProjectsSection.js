@@ -27,12 +27,14 @@ class CompletedProjectsSection extends React.Component {
                     <a
                         href="https://github.com/mohsinmsayed/Quiz"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Checkout Github Repository
                     </a>
                     <a
                         href="https://mohsinmsayed.github.io/Quiz/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Play "Quiz" Game
                     </a>
@@ -60,12 +62,14 @@ class CompletedProjectsSection extends React.Component {
                     <a
                         href="https://github.com/mohsinmsayed/TicTacToe"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Checkout Github Repository
                     </a>
                     <a
                         href="https://mohsinmsayed.github.io/TicTacToe/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Play "TicTacToe" Game
                     </a>
@@ -95,10 +99,15 @@ class CompletedProjectsSection extends React.Component {
                     <a
                         href="https://github.com/mohsinmsayed/portfolio"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         Checkout Github Repository
                     </a>
-                    <a href="https://www.mohsinsayed.com" target="_blank">
+                    <a
+                        href="https://www.mohsinsayed.com"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         Explore Portfolio
                     </a>
                 </div>

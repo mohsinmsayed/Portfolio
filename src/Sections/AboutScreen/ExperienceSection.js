@@ -16,9 +16,7 @@ class ExperienceSection extends React.Component {
                         </h1>
                         <h5>Airoli, Thane, Maharashtra - India</h5>
                         <h3>June 2021 - Present &emsp;|&emsp; 2+ years</h3>
-                        {/* <hr /> */}
                         <h2>Engineer - Cloud & Infra Services</h2>
-                        {/* <hr /> */}
                         <p>
                             ServiceNOW&reg; HRSD Developer
                             <br />
