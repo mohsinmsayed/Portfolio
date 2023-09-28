@@ -1,0 +1,8 @@
+#AboutScreen {
+    background-image: url("../../public/assets/backgroundImage-Desk.jpeg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
